@@ -1,0 +1,44 @@
+.navbar {
+  background-color: blueviolet;
+}
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .container .navbar-brand {
+  color: white;
+}
+.dropdown {
+  margin-top: 20px;
+  width: 100%;
+}
+.dropdown button {
+  width: 100%;
+}
+.dropdown ul {
+  width: 100%;
+}
+.form-floating {
+  margin-top: 20px;
+}
+.form-floating textarea {
+  min-height: 200px;
+}
+.nav2 {
+  margin-top: 50px;
+}
+#result {
+  width: 100%;
+  border: 3px dashed blueviolet;
+  margin-top: 20px;
+  min-height: 200px;
+  padding: 20px;
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dropdown-menu-dark .dropdown-item.active,
+.dropdown-menu-dark .dropdown-item:active {
+  background-color: blueviolet;
+}

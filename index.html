@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cssfile/all.min.css" />
+    <link rel="stylesheet" href="cssfile/bootstrap.min.css" />
+    <link rel="stylesheet" href="cssfile/bootstrap.min.css.map" />
+    <link rel="stylesheet" href="cssfile/normalize.css" />
+    <link rel="stylesheet" href="cssfile/css.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h2>Test - نص</h2></a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton2"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          ENCODE - DECODE
+        </button>
+        <ul
+          class="dropdown-menu dropdown-menu-dark"
+          aria-labelledby="dropdownMenuButton2"
+        >
+          <li><a class="dropdown-item active encode" href="#">Encode - التشفير</a></li>
+          <li><a class="dropdown-item decode" href="#">Decode - فك التشفير</a></li>
+        </ul>
+      </div>
+      <div class="form-floating">
+        <textarea
+          class="form-control"
+          placeholder="Leave a comment here"
+          id="floatingTextarea"
+        ></textarea>
+        <label for="floatingTextarea">Comments</label>
+      </div>
+    </div>
+    <nav class="navbar nav2">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h2>Result - النتيجة</h2></a>
+      </div>
+    </nav>
+    <div class="container">
+      <p id="result"></p>
+    </div>
+    <script src="jsfile/all.min.js"></script>
+    <script src="jsfile/bootstrap.bundle.min.js"></script>
+    <script src="jsfile/js.js"></script>
+  </body>
+</html>
